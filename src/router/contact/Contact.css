@@ -1,0 +1,102 @@
+.contact{
+    width: 100%;
+    height: 97.5vh;
+    background-color: dodgerblue;
+    display: flex;
+}
+.con__sidebar{
+    width: 30%;
+    min-height: 100%;
+    background: #A6070A ;
+    text-align: center; 
+    color: #fff;
+}
+.csidebar__logo{
+    width: 70%;
+    margin-top: 30px;
+
+}
+.csidebar__loc{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.con__about{
+    width: 70%;
+    min-height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid red;
+    gap: 20px;
+    overflow: auto;
+    padding: 10px;
+}
+.cabout__card{
+    width: 260px;
+    height: 320px;
+    margin-left: 8px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px #99999959;
+}
+.ccard__img{
+    width: 240px;
+}
+.ccard__job{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.ccard__btn{
+    width: 150px;
+    height: 30px;   
+    /* background-color: #a4a234; */
+    background-color: #e30000;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+.ccard__num{
+    margin-top: 10px;
+}
+.ccard__num span{
+    font-size: 18px;
+    color: #c71f54;
+    font-weight: 100;
+}
+@media screen and (max-width: 800px) {
+    .csidebar__logo{
+        width: 90%;
+    }
+    .csidebar__loc{
+        width: 90%;
+    }
+    .con__sidebar{
+        width: 40%;
+    }
+    .con__about{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .contact{
+        display: block;
+    }
+    .con__sidebar{
+        width: 100%;
+    }
+    .csidebar__logo{
+        width: 60%;
+    }
+    .csidebar__loc{
+        width: 60%;
+    }
+    .con__about{
+        width: 100%;
+    }
+}
