@@ -4,20 +4,23 @@ import {Link} from "react-router-dom"
 
 function Navbar() {
   return (
-    <nav className='navbar'>
+    <div className='navbar'>
+      <div className="container navbar">
+        
       <Link to="/">
-        <p>Asosiy</p>
+        <img className='con__nav__img' src="https://china-house.uz/wp-content/themes/china-house/images/logo.svg" alt="" />
       </Link>
       <Link to="/plan">
         <p>Rejalashtirish</p>
       </Link>
-      <Link to="/contact">
-        <p>To'lov rejasi</p>
-      </Link>
       <Link to="/ipoteka">
         <p>Ipoteka</p>
       </Link>
-    </nav>
+      <Link to="/contact">
+        <p>Contact</p>
+      </Link>
+      </div>
+    </div>
   )
 }
 

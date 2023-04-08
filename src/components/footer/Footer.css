@@ -88,6 +88,9 @@
     .ikons{
         transform: translateX(100px);
     }
+    .for__con__card{
+        margin: auto;
+    }
 } 
 @media screen and (max-width:440px) {
     .ikons{

@@ -1,6 +1,6 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom"
-import Home from "./router/home/Home"
+// import Home from "./router/home/Home"
 import Plan from "./router/plan/Plan"
 import Contact from "./router/contact/Contact"
 import Ipoteka from "./router/ipoteka/Ipoteka"
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        {/* <Route path='/' element={<Home/>}/> */}
         <Route path='/plan' element={<Plan/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/ipoteka' element={<Ipoteka/>}/>

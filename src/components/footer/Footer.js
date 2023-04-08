@@ -14,7 +14,7 @@ function Footer() {
           <div className="for__con__cards">
             <ul className="for__con__cr__ul">
               <h4 className="for__con__cr__ul__title">China House</h4>
-              <li className="for__con__cr__ul__li"><MdLocationPin className='iconca'/>Lorem, ipsum dolor.</li>
+              <li className="for__con__cr__ul__li"><MdLocationPin className='iconca'/>Avtosalon yonida</li>
               <li className="for__con__cr__ul__li"><MdPhone className='iconca'/>+000 00 000 00 00</li>
               <li className="for__con__cr__ul__li"><MdMobileScreenShare className='iconca'/>+000 00 000 00 00</li>
               <li className="for__con__cr__ul__li"><CgMail className='iconca'/>info@yourdomain.com</li>
@@ -23,23 +23,23 @@ function Footer() {
           </div>
           <div className="for__con__cards">
           <ul className="for__con__cr__ul">
-              <h4 className="for__con__cr__ul__title">Useful Links</h4>
-              <li className="for__con__cr__ul__li">> Lorem, ipsum dolor.</li>
-              <li className="for__con__cr__ul__li">> Lorem, ipsum dolor.</li>
-              <li className="for__con__cr__ul__li">> Lorem, ipsum dolor.</li>
-              <li className="for__con__cr__ul__li">> Lorem, ipsum dolor.</li>
-              <li className="for__con__cr__ul__li">> Lorem, ipsum dolor.</li>
-              <li className="for__con__cr__ul__li">> Lorem, ipsum dolor.</li>
-              <li className="for__con__cr__ul__li">> Lorem, ipsum dolor.</li>
+              <h4 className="for__con__cr__ul__title">Havolalarimiz</h4>
+              <li className="for__con__cr__ul__li">Biz bilan aloqa</li>
+              <li className="for__con__cr__ul__li">Bizning yoriqnomamiz</li>
+              <li className="for__con__cr__ul__li">Uylarimiz haqida</li>
+              <li className="for__con__cr__ul__li">Hodimlarimiz haqida</li>
+              <li className="for__con__cr__ul__li">Qulayliklarimiz</li>
+              <li className="for__con__cr__ul__li">Kmachiliklarimiz</li>
+              <li className="for__con__cr__ul__li">Hamkorlik uchun</li>
             </ul>
           </div>
           <div className="for__con__cards">
-          <h4 className="for__con__cr__ul__title">About Us</h4>
-          <p className="for__con__cr__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-          <p className="for__con__cr__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam totam ullam expedita reprehenderit sapiente ex porro blanditiis possimus necessitatibus?</p>
+          <h4 className="for__con__cr__ul__title">Biz haqimizda</h4>
+          <p className="for__con__cr__p">Biz bilan birga boling va aslo yengilmaysiz</p>
+          <p className="for__con__cr__p">Boshpana joy, uyjoy binolari. Oila istiqomat qiladigan uy, oilaning maishiy hayoti oʻtadigan muhit. Turar joy ibtidoiy davrlardayoq taom tayyorlash, libos kiyish qatorida paydo boʻlgan.</p>
           </div>
           <div className="for__con__cards">
-          <h4 className="for__con__cr__ul__title">Flickr Photos</h4>
+          <h4 className="for__con__cr__ul__title">Rasmlar</h4>
           <img className='img__for__ul' src="https://chinahouse1.uz/images/209617-1.jpg" alt="" />
           </div>
           </div>
