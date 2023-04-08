@@ -5,6 +5,7 @@ import Plan from "./router/plan/Plan"
 import Contact from "./router/contact/Contact"
 import Ipoteka from "./router/ipoteka/Ipoteka"
 import Navbar from "./components/navbar/Navbar"
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/ipoteka' element={<Ipoteka/>}/>
         <Route path='*' element={<h1 className='not__found'>404</h1>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
