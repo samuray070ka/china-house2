@@ -27,7 +27,7 @@ export const MAN__ABOUT = [
     img: "https://china-house.uz/wp-content/themes/china-house/images/sales/4.jpg",
     name: "Mashrabbayeva Mahliyo",
     job: "Sotish bo'yicha  menejer",
-    num: "",
+    num: "99 115 88 88",
 
   },
   {
@@ -50,7 +50,7 @@ function Contact() {
   return (
     <div className="container">
       <div className="contact">
-        
+
         <div className="con__sidebar">
 
           <img className='csidebar__logo' src="https://china-house.uz/wp-content/themes/china-house/images/sales/logo-shoxsaroy-white2.svg" alt="" />
