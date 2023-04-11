@@ -4,13 +4,13 @@ import Home from "./router/home/Home"
 import Plan from "./router/plan/Plan"
 import Contact from "./router/contact/Contact"
 import Ipoteka from "./router/ipoteka/Ipoteka"
-// import Navbar from "./components/navbar/Navbar"
+import Navbar from "./components/navbar/Navbar"
 import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/plan' element={<Plan/>}/>

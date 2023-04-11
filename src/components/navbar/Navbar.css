@@ -1,54 +1,90 @@
 .navbar{
     width: 100%;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    background: red;
+    height: 80px;
+    background: var(--bg-py);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 12;
 }
-.navbar p{
-    padding: 40px 20px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    transform: translateX(400px);
+.navbar__wrapper{
+    height: 100%;
     display: flex;
-    flex: 1;
+    align-items: center;
 }
-.navbar a{
+.nav__logo{
+    margin-right: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav__logo img{
+    width: 100%;
+    height: 80%;
+}
+.nav__collection{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+.nav__item{
+    height: 100%;
+}
+.nav__item a{
     text-decoration: none;
+    color: #fff;
+    height: 100%;
+    display: inline-block;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
 }
-.con__nav__img{
-    padding: 10px;
+.nav__menu{
+    display: none;
 }
 
 
-@media screen and (max-width:1300px) {
-    .con__nav__img{
-        transform: translateX(200px);
+
+@media screen and (max-width: 1280px) {
+    .navbar .container{
+        padding: 0 30px;
     }
-} 
-@media screen and (max-width:930px) {
-    .navbar p{
-        transform: translateX(150px);
+}
+@media screen and (max-width: 700px) {
+    .navbar .container{
+        padding: 0 30px;
     }
-    .con__nav__img{
-        transform: translateX(100px);
+    .navbar__wrapper{
+        justify-content: space-between;
     }
-}  
-@media screen and (max-width:650px) {
-    .navbar p{
-        display: none;
+    .nav__collection{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background: var(--bg-py);
+        z-index: 11;
+        flex-direction: column;
+        padding: 30px 0;
+        transition: .3s;
+        transform: scaley(0);
+        transform-origin: top;
     }
-    .con__nav__img{
-        transform: translateX(180px);
+    .nav__show{
+        transform: scaleY(1);
     }
-} 
-@media screen and (max-width:500px) {
-    .con__nav__img{
-        transform: translateX(80px);
+    .nav__item a{
+        height: 100%;
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
     }
-} 
-@media screen and (max-width:300px) {
-    .con__nav__img{
-        transform: translateX(50px);
+    .nav__menu{
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        padding: 20px 5px;
+        box-sizing: content-box;
     }
-} 
+}

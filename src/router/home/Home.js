@@ -15,6 +15,7 @@ function Home() {
         spaceBetween={30}
         effect={"fade"}
         navigation={true}
+        loop={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -38,16 +39,13 @@ function Home() {
           <img src="https://china-house.uz/wp-content/themes/china-house/slider/images/4.jpg" />
         </SwiperSlide>
       </Swiper>
-      <img className='home__key' src="https://china-house.uz/wp-content/themes/china-house/images/hhwtop.png" alt="" />
-      <div className='home__white'>
-        <h1>BIZ QANDAY ISHLAB CHIQARAMIZ ?</h1>
-      </div>
       </div>
       <div className="home__banner_2">
+          <h1>BIZ QANDAY ISHLAB CHIQARAMIZ ?</h1> 
         <div className="home__cards container">
           <div className="home__card">
             <h3>BATAFSIL MASLAHAT</h3>
-            <p>Turar-joy majmuasining vizual ko'rinishi va to'liq tavsifi, sizga yoqqan kvartira uchun kredit olish haqida ma'lumot, batafsil hisob-kitob va dastlabki to'lov jadvali bilan tanishish.</p>
+            <p>Turar-joy sizga yoqqan kvartira uchun kredit olish haqida ma'lumot, batafsil hisob-kitob va dastlabki to'lov jadvali bilan tanishish.</p>
             <img src="https://china-house.uz/wp-content/themes/china-house/images/card-1.jpg" alt="" />
           </div>
           <div className="home__card">
@@ -56,15 +54,14 @@ function Home() {
             <img src="https://china-house.uz/wp-content/themes/china-house/images/card-2.jpg" alt="" />
           </div>
           <div className="home__card">
-            <h3>SHARTNOMA UCHUN RO'YXATLANING</h3>
-            <p>Bankdan kreditga rozilik olganimizdan so'ng, biz sizning hujjatlaringizni kreditni rasmiylashtirish uchun to'liq tayyorlaymiz, shundan so'ng siz uchun qulay vaqtda shartnoma imzolash uchun sizni ofisimizga taklif qilamiz.</p>
+            <h3>RO'YXATDAN O'TING</h3>
+            <p>Bizning savdo bo'limiga biriktirilgan bankning maxsus xodimi tufayli kvartira sotib olish uchun kreditni qulay va tez tasdiqlash.</p>
             <img src="https://china-house.uz/wp-content/themes/china-house/images/card-3.jpg" alt="" />
           </div>
         </div>
       </div>
       <div className="home__banner_3">
-        <h1 >BIZ SIZNING ISTAKLARINGIZ VA IMKONIYATLARINGIZNI SOZGACHA ETIB OLAMIZ ENG YAXSHI VARIANTNI DIQQAT QILAMIZ..!</h1>
-        <img src="https://china-house.uz/wp-content/themes/china-house/images/present-01.png" alt="" />
+        <h1 className='container'>BIZ SIZNING ISTAKLARINGIZ VA IMKONIYATLARINGIZNI SOZGACHA ETIB OLAMIZ ENG YAXSHI VARIANTNI DIQQAT QILAMIZ..!</h1>
       </div>
       <div className="home__banner_4">
         <div className="home__banner_4_half__1">
@@ -77,16 +74,9 @@ function Home() {
         </div>
       </div>
       <div className="home__banner_5">
-        <div className='home__banner_5_half__1'>
-          <img src="https://china-house.uz/wp-content/themes/china-house/images/famaly-left.jpg" alt="" />
-          <img src="https://china-house.uz/wp-content/themes/china-house/images/decor-001.png" alt="" />
-        </div>
-        <div className='home__banner_5_half__2'>
-        <img src="https://china-house.uz/wp-content/themes/china-house/images/flat.jpg" alt="" />
         <div>
           <p>Oiladagi baxt asta-sekin yig'iladi: bu yaqinlarning tabassumi, baxtli bayramlar, bolalarning tug'ilishi, bular uy qurishga kelgan do'stlar, kvartirada qulay muhit, bolalarning maktabdagi muvaffaqiyati va qiziqarli o'yinlar o'yin maydonchasida.
           Biz sizning yangi uyingiz joylashuvini diqqat bilan tanladik, shunda siz tezda bolalar bog'chalari va maktablarga borishingiz, oziq-ovqat uchun supermarketga yugurishingiz, oilangiz bilan restoranga kechki ovqatga chiqishingiz va qulay yashashingiz mumkin.</p>
-        </div>
         </div>
       </div>
     </div>

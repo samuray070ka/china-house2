@@ -37,14 +37,13 @@
     flex-wrap: wrap;
     gap: 20px;
     overflow: auto;
-    padding: 30px 0;
+    padding: 30px;
     align-content: flex-start;
 
 }
 .cabout__card{
     width: 260px;
     height: auto;
-    margin: 0 auto;
     padding: 10px;
     text-align: center;
     box-shadow: 0 0 20px #99999959;
@@ -85,12 +84,10 @@
     .csidebar__loc{
         width: 90%;
     }
-
-
 }
 @media screen and (max-width: 550px) {
     .cabout__card{
-        width: calc(100% - 150px);
+        width: 100%;
     }
     .contact{
         display: block;
@@ -108,7 +105,7 @@
         width: 100%;
     }
     .cloc__about{
-        width: calc(100% - 150px);
+        width: 100%;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -117,16 +114,5 @@
         width: 100%;
         display: block;
         justify-content: none;
-    }
-}
-@media screen and (max-width: 450px) {
-    .cabout__card{
-        width: calc(100% - 30px);
-    }
-    .con__bac{
-        width: 100%;
-    }
-    .cloc__about{
-        width: calc(100% - 30px);
     }
 }
