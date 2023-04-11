@@ -6,6 +6,7 @@ import Contact from "./router/contact/Contact"
 import Ipoteka from "./router/ipoteka/Ipoteka"
 import Navbar from "./components/navbar/Navbar"
 import Footer from './components/footer/Footer';
+import Admin from './router/admin/Admin';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/plan' element={<Plan/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/ipoteka' element={<Ipoteka/>}/>
+        <Route path='/admin*' element={<Admin/>}/>
         <Route path='*' element={<h1 className='not__found'>404</h1>}/>
       </Routes>
       <Footer/>

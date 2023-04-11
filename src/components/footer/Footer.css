@@ -1,6 +1,5 @@
 .footer{
     width: 100%;
-    border-top: 4px solid var(--bg-py);
     background:#303030 url(https://www.thnet.it/new/images/footer-graph2.png)no-repeat right bottom;
 }
 .foter__con{
@@ -11,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 100px 0;
+    justify-content: center;
 }
 .for__con__cards{
     width: 250px;
@@ -19,12 +19,10 @@
 .for__con__cr__ul__title{
     font-size: 30px;
     color: rgb(179, 177, 177);
-    text-align: center;
 }
 .for__con__cr__ul__li{
+    padding: 10px 0;
     font-size: 18px;
-    padding: 10px 20px;
-    transform: translateX(16px);
     list-style: none;
     color:rgb(105, 105, 105);
 }
@@ -35,7 +33,7 @@
 .for__con__cr__p{
     color:rgb(105, 105, 105);
     font-size: 18px;
-    padding: 20px;
+    padding: 10px 0;
 }
 .foter__bottom{
     width: 100%;
@@ -50,7 +48,6 @@
 }
 .for__bot__con__tit{
     color: #fff;
-    transform: translateX(200px);
 }
 .iconca{
     font-size: 20px;
@@ -92,8 +89,18 @@
         margin: auto;
     }
 } 
+@media screen and (max-width:615px) {
+    .for__con__cards{
+        width: 100%;
+        text-align: center;
+    }
+}
 @media screen and (max-width:440px) {
     .ikons{
         transform: translateX(30px);
+    }
+    .for__con__cards{
+        width: 100%;
+        text-align: center;
     }
 }

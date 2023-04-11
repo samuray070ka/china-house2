@@ -29,6 +29,11 @@ function Navbar() {
             <span>Contact</span>
           </Link>
         </li>
+        <li onClick={() => setShow(false)} className="nav__item">
+          <Link to="/admin">
+            <span>Admin</span>
+          </Link>
+        </li>
       </ul>
       <BiMenuAltRight onClick={() => setShow(p => !p)} className='nav__menu'/>
       </div>
