@@ -93,13 +93,14 @@
         display: block;
     }
     .con__sidebar{
+        padding: 20px 0;
         width: 100%;
     }
     .csidebar__logo{
-        width: 100%;
+        width: 80%;
     }
     .csidebar__loc{
-        width: 100%;
+        width: 80%;
     }
     .con__about{
         width: 100%;
