@@ -74,6 +74,9 @@ function Contact() {
               src="https://china-house.uz/wp-content/themes/china-house/images/sales/shanghai.jpg"
               alt=""
             />
+
+            <br />
+            <br />
             <h4>Посмотреть на карте</h4>
           </div>
         </div>
