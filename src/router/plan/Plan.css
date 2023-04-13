@@ -23,11 +23,11 @@
     object-fit: cover;
   }
   .plan .swiper-button-prev {
-     color: var( --bg-py) !important;
+     color: var( --bg-logo1) !important;
   }
   
   .plan .swiper-button-next {
-    color: var( --bg-py) !important;
+    color: var( --bg-logo1) !important;
   }
   .autoplay-progress {
     position: absolute;
@@ -41,8 +41,8 @@
     justify-content: center;
     font-weight: bold;
     stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
-    stroke: var(--swiper-theme-color);
-    color: var(--swiper-theme-color);
+    stroke: var(--bg-logo1);
+    color: var(--bg-logo1);
   }
   
   .autoplay-progress svg {
@@ -63,6 +63,7 @@
 }
 .plan h1{
     text-align: center;
+    color: var(--bg-logo1);
 }
 .maps{
     width: 100%;
@@ -124,6 +125,7 @@
         width: 38px;
         height: 38px;
         display: flex;
+        transform: scale(0.7);
     }
     .plan .swiper-button-prev {
         color: var( --bg-py) !important;
