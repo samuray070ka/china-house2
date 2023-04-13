@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import "./Navbar.css"
 import {Link} from "react-router-dom"
 import {BiMenuAltRight} from "react-icons/bi"
+import logo from "../../assets/logo.png"
 
 function Navbar() {
   const [show, setShow] = useState(false)
@@ -11,7 +12,7 @@ function Navbar() {
       <div className="container navbar__wrapper">
         
       <Link onClick={() => setShow(false)} className='nav__logo' to="/">
-        <img  src="https://china-house.uz/wp-content/themes/china-house/images/logo.svg" alt="" />
+        <img  src={logo} alt="" />
       </Link>
       <ul  className={`nav__collection ${show?"nav__show": ""}`}>
         <li onClick={() => setShow(false)} className="nav__item">

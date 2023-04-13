@@ -41,17 +41,17 @@ function Home() {
       <div className="home__banner_2">
         <h1>BIZ QANDAY ISHLAB CHIQARAMIZ ?</h1>
         <div className="home__cards container">
-          <div data-aos="fade-up" className="home__card_1">
+          <div data-aos="fade-up" className="home__card">
             <h3>BATAFSIL MASLAHAT</h3>
             <p>Turar-joy sizga yoqqan kvartira uchun kredit olish haqida ma'lumot, batafsil hisob-kitob va dastlabki to'lov jadvali bilan tanishish.</p>
             <img src="https://china-house.uz/wp-content/themes/china-house/images/card-1.jpg" alt=""/>
           </div>
-          <div data-aos="fade-up" data-aos-duration="800" className="home__card_2">
+          <div data-aos="fade-up" data-aos-duration="800" className="home__card">
             <h3>BANKDAN KREDIT BERISH</h3>
             <p>Bizning savdo bo'limiga biriktirilgan bankning maxsus xodimi tufayli kvartira sotib olish uchun kreditni qulay va tez tasdiqlash.</p>
             <img src="https://china-house.uz/wp-content/themes/china-house/images/card-2.jpg" alt=""/>
           </div>
-          <div data-aos="fade-up" data-aos-duration="1600" className="home__card_3">
+          <div data-aos="fade-up" data-aos-duration="1600" className="home__card">
             <h3>RO'YXATDAN O'TING</h3>
             <p>Bizning savdo bo'limiga biriktirilgan bankning maxsus xodimi tufayli kvartira sotib olish uchun kreditni qulay va tez tasdiqlash.</p>
             <img src="https://china-house.uz/wp-content/themes/china-house/images/card-3.jpg" alt=""/>

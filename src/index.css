@@ -6,6 +6,9 @@
 }
 :root{
   --bg-py: #D70000;
+  --bg-logo1: #CA5204;
+  --bg-logo2: #F5A905;
+  --bg-gradient: linear-gradient(45deg, var(--bg-logo1), var(--bg-logo2));
 }
 .container{
   max-width: 1250px;
