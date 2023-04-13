@@ -2,6 +2,10 @@
     width: 100%;
     min-height: 97.5vh;
 }
+.ccard__num a{
+    text-decoration: none;
+    color: black;
+}
 .con__bac{
     width: 100%;
     display: flex;
@@ -16,7 +20,7 @@
 .con__sidebar{
     width: 100%;
     min-height: 300px;
-    background: #A6070A ;
+    background: var(--bg-gradient) ;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -61,7 +65,7 @@
     width: 150px;
     height: 30px;   
     /* background-color: #a4a234; */
-    background-color: #e30000;
+    background: var(--bg-logo2);
     font-weight: 600;
     color: #fff;
     border-radius: 100px;
