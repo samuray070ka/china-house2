@@ -30,6 +30,11 @@ function Navbar() {
             <span>Contact</span>
           </Link>
         </li>
+        <li onClick={() => setShow(false)} className="nav__item">
+          <Link to="/about">
+            <span>About</span>
+          </Link>
+        </li>
         {/* <li onClick={() => setShow(false)} className="nav__item">
           <Link to="/admin">
             <span>Admin</span>

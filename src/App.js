@@ -18,8 +18,8 @@ function App() {
         <Route path='/plan' element={<Plan/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/ipoteka' element={<Ipoteka/>}/>
-        <Route path='/admin*' element={<Admin/>}/>
-        <Route path='/about*' element={<About/>}/>
+        <Route path='/admin/*' element={<Admin/>}/>
+        <Route path='/about' element={<About/>}/>
         <Route path='*' element={<h1 className='not__found'>404</h1>}/>
       </Routes>
       <Footer/>
