@@ -104,3 +104,8 @@
         text-align: center;
     }
 }
+@media screen and (max-width:440px) {
+    .ikons{
+        transform: translateX(80px);
+    }
+}
