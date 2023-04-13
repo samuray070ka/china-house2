@@ -22,7 +22,13 @@
     margin: auto;
     object-fit: cover;
   }
+  .plan .swiper-button-prev {
+     color: var( --bg-py) !important;
+  }
   
+  .plan .swiper-button-next {
+    color: var( --bg-py) !important;
+  }
   .autoplay-progress {
     position: absolute;
     right: 16px;
@@ -82,6 +88,15 @@
         font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
         font-weight: 100;
     }
+    .plan .swiper-button-prev {
+        color: var( --bg-py) !important;
+        transform: scale(.5);
+     }
+     
+     .plan .swiper-button-next {
+       color: var( --bg-py) !important;
+       transform: scale(.5);
+     }
 }
 @media screen and (max-width: 500px) {
     .plan h1{
@@ -110,6 +125,15 @@
         height: 38px;
         display: flex;
     }
+    .plan .swiper-button-prev {
+        color: var( --bg-py) !important;
+        transform: scale(0.5);
+     }
+     
+     .plan .swiper-button-next {
+       color: var( --bg-py) !important;
+       transform: scale(0.5);
+     }
 }
 @media screen and (max-width: 400px) {
    
