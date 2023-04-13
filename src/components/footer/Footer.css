@@ -37,7 +37,7 @@
 }
 .foter__bottom{
     width: 100%;
-    background: #ff0000e1;
+    background: var(--bg-gradient);
     padding: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +48,7 @@
 }
 .for__bot__con__tit{
     color: #fff;
+    flex: 1;
 }
 .iconca{
     font-size: 20px;
@@ -58,9 +59,7 @@
     color: #fff;
     margin-left: 5px;
 }
-.ikons{
-    transform: translateX(800px);
-}
+
 
 
 @media screen and (max-width:1740px) {
