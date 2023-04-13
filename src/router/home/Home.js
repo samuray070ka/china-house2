@@ -6,6 +6,10 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
+import img1 from "../../assets/bg1.jpg"
+import img2 from "../../assets/bg2.jpg"
+import img3 from "../../assets/bg3.jpg"
+import img4 from "../../assets/bg4.jpg"
 
 function Home() {
   return (
@@ -25,16 +29,16 @@ function Home() {
           }}
           modules={[Autoplay, EffectFade, Navigation, Pagination]}>
           <SwiperSlide className="home__swiper_slide">
-            <img src="https://china-house.uz/wp-content/themes/china-house/slider/images/1.jpg" alt=""/>
+            <img src={img1} alt=""/>
           </SwiperSlide>
           <SwiperSlide className="home__swiper_slide">
-            <img src="https://china-house.uz/wp-content/themes/china-house/slider/images/2.jpg" alt=""/>
+            <img src={img2} alt=""/>
           </SwiperSlide>
           <SwiperSlide className="home__swiper_slide">
-            <img src="https://china-house.uz/wp-content/themes/china-house/slider/images/3.jpg" alt=""/>
+            <img src={img3} alt=""/>
           </SwiperSlide>
           <SwiperSlide className="home__swiper_slide">
-            <img src="https://china-house.uz/wp-content/themes/china-house/slider/images/4.jpg" alt=""/>
+            <img src={img4} alt=""/>
           </SwiperSlide>
         </Swiper>
       </div>
@@ -63,7 +67,7 @@ function Home() {
       </div>
       <div className="home__banner_4">
         <div data-aos="flip-left" data-aos-duration="1500" className="home__banner_4_half__1">
-          <img src="https://china-house.uz/wp-content/themes/china-house/images/exterior-001.jpg" alt=""/>
+          <img src={img4} alt=""/>
         </div>
         <div data-aos="flip-right" data-aos-duration="1500" className="home__banner_4_half__2">
           <img src="https://china-house.uz/wp-content/themes/china-house/images/shoxsaroi.png" alt=""/>
@@ -76,7 +80,7 @@ function Home() {
           <p>Sergeli uchun mutlaqo yangi darajadagi qulaylikdir. 110 000 m2 keng maydon zamonaviy, xavfsiz va nafis majmuaga va katta xarid qilishxiyoboniga qulay tarzda mos keladi. “Bu” majmuasi megapolisning haqiqiy epitsentridir: u hashamatli hayot, samarali mehnat va yaxshi dam olish uchun barcha infratuzilmani taqdim etadi. Yuqori toifadagi kvartiralar, shinam kvartiralar, bolalar maydonchasi, dam olish maskani, betakror landshaft, avtoturargoh va toza havoga ega katta park va ikkita tosh uydan iborat “SHOXSAROY RESIDENCE” obodonlashtirilgan hudud.</p>
         </div>
         <div data-aos="flip-right" data-aos-duration="1500" className="home__banner_5_half__1">
-          <img src="https://china-house.uz/wp-content/themes/china-house/images/exterior-001.jpg" alt=""/>
+          <img src={img3} alt=""/>
         </div>
       </div>
     </div>
