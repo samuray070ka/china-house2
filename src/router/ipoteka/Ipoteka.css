@@ -10,10 +10,10 @@
 .ipoteka__right{
     width: 300px;
     min-height: 270px;
-    padding: 10px 50px;
+    padding: 10px   10px;
     background: #d70000c2;
     color: #fff;
-    font-size: 30px;
+    font-size: 20   px;
     line-height: 50px;
     position: absolute;
     top: 150px;
@@ -33,7 +33,7 @@
 /* Left */
 
 .ipoteka__left{
-    width: 60%;
+    width: 50%;
 }
 .ipoteka__left .ipoteka__bottom{
     text-align: center;
@@ -46,10 +46,15 @@
 }
 .ipoteka__left .ipoteka__top{
     background: #b7b0b0c2;
-    height: 80px;
+    min-height: 100px;
+    padding: 5px 20px;
 }
-
 /* Media */
+@media screen and (max-width: 1199px) {
+    .ipoteka__left{
+        width: 45%;
+    }
+}
 @media screen and (max-width: 1100px) {
     .ipoteka{
         flex-direction: column;
@@ -64,6 +69,10 @@
     .ipoteka__left{
         width: 100%;
     }
+    .ipoteka__top{
+        text-align: center;
+    }
+
 }
 @media screen and (max-width: 500px) {
     .ipoteka__right{
