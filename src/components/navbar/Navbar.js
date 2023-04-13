@@ -10,7 +10,7 @@ function Navbar() {
     <div className='navbar'>
       <div className="container navbar__wrapper">
         
-      <Link className='nav__logo' to="/">
+      <Link onClick={() => setShow(false)} className='nav__logo' to="/">
         <img  src="https://china-house.uz/wp-content/themes/china-house/images/logo.svg" alt="" />
       </Link>
       <ul  className={`nav__collection ${show?"nav__show": ""}`}>
