@@ -94,7 +94,7 @@ function Contact() {
             <button className="ccard__btn">Xabar yozish uchun</button>
 
             <h4 className="ccard__num">
-              +998 <span>{item.num}</span>
+              <a href={`tel:+998${item.num}`}> +998 <span>{item.num}</span> </a>
             </h4>
           </div>
         ))}
