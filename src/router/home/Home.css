@@ -25,24 +25,76 @@
     gap: 30px;
     padding: 0 0 30px 0;
 }
-.home__card{
-    width: 350px;
+.home__card_1{
+    width: 390px;
     margin-top: 20px;
     background: rgba(247, 247, 247, 0.7);
     box-shadow: -5px 4px 10px rgba(0, 0, 0, 0.15);
     z-index: 3;
     padding: 20px;
 }
-.home__card img{
+.home__card_1 img{
     width: 100%;
 }
-.home__card h3{
+.home__card_1 h3{
     text-align: center;
     font-size: 18px;
     color: dodgerblue;
     margin-bottom: 10px;
 }
-.home__card p{
+.home__card_1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.home__card_2{
+    width: 390px;
+    margin-top: 20px;
+    background: rgba(247, 247, 247, 0.7);
+    box-shadow: -5px 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 3;
+    padding: 20px;
+}
+.home__card_2 img{
+    width: 100%;
+}
+.home__card_2 h3{
+    text-align: center;
+    font-size: 18px;
+    color: dodgerblue;
+    margin-bottom: 10px;
+}
+.home__card_2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.home__card_3{
+    width: 390px;
+    margin-top: 20px;
+    background: rgba(247, 247, 247, 0.7);
+    box-shadow: -5px 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 3;
+    padding: 20px;
+}
+.home__card_3 img{
+    width: 100%;
+}
+.home__card_3 h3{
+    text-align: center;
+    font-size: 18px;
+    color: dodgerblue;
+    margin-bottom: 10px;
+}
+.home__card_3 p{
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -74,8 +126,8 @@
 .home__banner_4{
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
-    background-color: rgb(93, 31, 150);
+    overflow: hidden;    
+    background: #720983;
 }
 .home__banner_4_half__1{
     width: 50%;
@@ -101,24 +153,34 @@
     font-size: 18px;
 }
 .home__banner_5{
-    width: 100%;
-    padding: 50px 0;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("https://china-house.uz/wp-content/themes/china-house/images/flat.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;    
+    background: url("https://china-house.uz/wp-content/themes/china-house/images/redbackround.jpg") no-repeat center/cover;
 }
-.home__banner_5 div{
-    width: 60%;
-    height: auto;
-    margin: auto;
+.home__banner_5_half__1{
+    width: 50%;
+}
+.home__banner_5_half__1 img{
+    width: 80%;
+    display: block;
+    margin: 300px auto;
+}
+.home__banner_5_half__2{
+    width: 50%;
+}
+.home__banner_5_half__2 img{
+    display: block;
+    margin: 300px auto 50px auto;
+}
+.home__banner_5_half__2 p{
     color: #fff;
-    font-size: 20px;
+    width: 80%;
     text-align: center;
-    text-transform: capitalize;
-    line-height: 1cm;
+    margin: auto;
+    line-height: 0.7cm;
+    font-size: 18px;
 }
-
 
 
 
@@ -186,15 +248,39 @@
     .home__banner_4_half__2 p{
         margin: 0 auto  30px auto;
     }
+    .home__banner_5_half__1{
+        width: 100%;
+        margin: auto;
+    }
+    .home__banner_5_half__1 img{
+        margin:20px auto 30px auto;
+    }
+    .home__banner_5_half__2{
+        width: 100%;
+        margin: auto;
+    }
+    .home__banner_5_half__2 img{
+        margin: 0 auto  30px auto;
+        width: 50%;
+    }
+    .home__banner_5_half__2 p{
+        margin: 0 auto  30px auto;
+    }
 }
 @media screen and (max-width: 990px){
     .home__swiper_slide img{
         height: 450px;
     }
+    .home__banner_2 h1{
+        font-size: 25px;
+    }
 }
 @media screen and (max-width:650px){
     .home__swiper_slide img{
         height: 300px;
+    }
+    .home__banner_2 h1{
+        font-size: 20px;
     }
     .home__banner_3 h1{
         font-size: 30px;
@@ -211,8 +297,12 @@
     .home__banner_4_half__2 p{
         font-size: 14px;
     }
+    .home__banner_5_half__2 p{
+        font-size: 14px;
+    }
     .home__banner_3 h1{
         font-size: 20px;
         line-height: 1cm;
     }
 }
+
