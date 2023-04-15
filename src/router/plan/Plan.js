@@ -1,5 +1,25 @@
 import React, { useRef} from 'react'
 import './Plan.css'
+import plan1 from "./plan1.png"
+import plan2 from "./plan2.png"
+import plan3 from "./plan3.png"
+import plan4 from "./plan4.png"
+import plan5 from "./plan5.png"
+import plan6 from "./plan6.png"
+import plan7 from "./plan7.png"
+import plan8 from "./plan8.png"
+import plan9 from "./plan9.png"
+import plan10 from "./plan10.png"
+import plan11 from "./plan11.png"
+import plan12 from "./plan12.png"
+import plan13 from "./plan13.png"
+import plan14 from "./plan14.png"
+import plan15 from "./plan15.png"
+import plan16 from "./plan16.png"
+import plan17 from "./plan17.png"
+import plan18 from "./plan18.png"
+import plan19 from "./plan19.png"
+import plan20 from "./plan20.png"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -46,19 +66,27 @@ function Plan() {
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper1"
       >
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room3/little/17.png" alt="" />
+        <SwiperSlide><img src={plan1} alt="" />
         <h2>Жилой комплекс на "Сергели 6А "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>3 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room3/big/21.png" alt="" />
+        <SwiperSlide><img src={plan2} alt="" />
         <h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>4 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan3} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>3 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room1/little/1.png" alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
-        <h3>3 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room3/big/26.png" alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <SwiperSlide><img src={plan4} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>1 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room3/little/9.png" alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <SwiperSlide><img src={plan5} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>3 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room2/big/1.png" alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <SwiperSlide><img src={plan6} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>2 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan7} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>4 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan8} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>5 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan9} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>3 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan10} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>1 комнатная квартира</h3></SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
         <div className="swiper-pagination"></div>
@@ -84,18 +112,30 @@ function Plan() {
         onAutoplayTimeLeft={onAutoplayTimeLeft2}
         className="mySwiper1"
       >
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room3/big/26.png" alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <SwiperSlide><img src={plan11} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>1 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room3/big/21.png" alt="" />
+        <SwiperSlide><img src={plan12} alt="" />
         <h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>3 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room1/little/1.png" alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <SwiperSlide><img src={plan13} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>4 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan14} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>3 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room3/little/9.png" alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
-        <h3>3 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room2/big/1.png" alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
+        <SwiperSlide><img src={plan15} alt="" /><h2>Жилой комплекс на "Сергели 6А" "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>1 комнатная квартира</h3></SwiperSlide>
-        <SwiperSlide><img src="https://china-house.uz/wp-content/themes/china-house/plancarousel/imagesshohsaroy/room3/little/17.png" alt="" />
+        <SwiperSlide><img src={plan16} alt="" />
+        <h2>Жилой комплекс на "Сергели 6А "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>2 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan17} alt="" />
+        <h2>Жилой комплекс на "Сергели 6А "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>5 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan18} alt="" />
+        <h2>Жилой комплекс на "Сергели 6А "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>3 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan19} alt="" />
+        <h2>Жилой комплекс на "Сергели 6А "SHOXSAROY RESIDENCE"</h2><br/>
+        <h3>5 комнатная квартира</h3></SwiperSlide>
+        <SwiperSlide><img src={plan20} alt="" />
         <h2>Жилой комплекс на "Сергели 6А "SHOXSAROY RESIDENCE"</h2><br/>
         <h3>3 комнатная квартира</h3></SwiperSlide>
         <div className="autoplay-progress" slot="container-end">

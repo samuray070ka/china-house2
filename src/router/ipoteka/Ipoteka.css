@@ -11,7 +11,7 @@
     width: 300px;
     min-height: 270px;
     padding: 10px   10px;
-    background: #d70000c2;
+    background: var(--bg-logo1);
     color: #fff;
     font-size: 20   px;
     line-height: 50px;
@@ -38,7 +38,7 @@
 .ipoteka__left .ipoteka__bottom{
     text-align: center;
     color: #fff;
-    background: #d70000c2;
+    background: var(--bg-logo1);
 }
 .ipoteka__left .ipoteka__bottom h2{
     font-weight: 100;
