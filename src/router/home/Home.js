@@ -79,6 +79,16 @@ function Home() {
           <img src="https://china-house.uz/wp-content/themes/china-house/images/exterior-001.jpg" alt=""/>
         </div>
       </div>
+      <div className="home__banner_6">
+        <div data-aos-duration="1500" data-aos="fade-right">
+          <iframe  width="560" height="315" src="https://www.youtube.com/embed/e17aSm989qI"   title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay;   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"   allowFullScreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LLM7LF1Fr-k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </div>
+        <div data-aos-duration="1500" data-aos="fade-left">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/e53dq7z4aQU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/eqkGMsBrKM4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> 
+        </div>
+      </div>
     </div>
   );
 }
