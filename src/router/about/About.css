@@ -1,0 +1,45 @@
+.about__logo{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--bg-logo2);
+}
+.about__child{
+    width: 40%;
+    margin-left: 40px;
+}
+.about__child3{
+    width: 40%;
+    transform: translateX(60px);
+}
+.about__child4{
+    width: 40%;
+}
+.about__img{
+    width: 100%;
+    padding-left: 50px;
+}
+.about__box{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about__child2{
+    padding-left: 30px;
+    width: 40%;
+}
+.about__logo2{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px;
+    color: var(--bg-logo1);
+}
+.about__p{
+    font-size: 17px;
+    font-weight: 100;
+    width: 80%;
+    color: var(--bg-logo2);
+}
