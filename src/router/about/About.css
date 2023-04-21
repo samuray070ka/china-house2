@@ -43,3 +43,54 @@
     width: 80%;
     color: var(--bg-logo2);
 }
+
+
+
+
+
+@media screen and (max-width:990px) {
+    .about__child{
+        width: 60%;
+        transform: translateX(-40px);
+    }
+    .about__child2{
+        width: 70%;
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+    .about__child3{
+        width: 70%;
+        margin-left: 40px;
+    }
+    .about__child4{
+        padding-top: 20px;
+        width: 60%;
+        transform: translateX(-20px);
+    }
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .about__logo{
+        font-size: 25px;
+        padding: 10;
+    }
+    .about__child{
+        margin-top: -20px;
+        width: 70%;
+    }
+    .about__logo2{
+        font-size: 25px;
+        transform: translateX(-40px);
+    }
+    .about__p{
+        font-size: 15px;
+        width: 90%;
+        transform: translateX(-35px);
+    }
+    .about__child4{
+        width: 70%;
+    }
+}
