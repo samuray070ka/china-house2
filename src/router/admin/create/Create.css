@@ -1,0 +1,28 @@
+.create{
+    display: flex;
+    justify-content: center;
+}
+.create__card{
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 10px #ddd;
+    text-align: center;
+    padding: 10px;
+}
+.create__inp{
+    width: 80%;
+    height: 30px;
+    text-indent: 12px;
+    outline: none;
+    border-radius: 2px;
+    border: 2px solid #aaa;
+}
+.create__btn{
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    background: var(--bg-gradient);
+    border: none;
+    border-radius: 2px;
+
+}
