@@ -55,9 +55,9 @@
     transform: translateY(4px)translateX(-4px);
 }
 .iko__icons{
-    font-size: 20px;
+    font-size: 27px;
     color: #fff;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 
@@ -95,9 +95,6 @@
     }
 }
 @media screen and (max-width:440px) {
-    .ikons{
-        transform: translateX(30px);
-    }
     .for__con__cards{
         width: 100%;
         text-align: center;
@@ -106,5 +103,28 @@
 @media screen and (max-width:440px) {
     .ikons{
         transform: translateX(80px);
+    }
+}
+@media screen and (max-width:400px) {
+    .ikons{
+        transform: translateX(40px);
+    }
+    .iko__icons{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:350px) {
+    .ikons{
+        transform: translateX(20px);
+    }
+}
+@media screen and (max-width:300px) {
+    .ikons{
+        transform: translateX(0px);
+    }
+}
+@media screen and (max-width:300px) {
+    .iko__icons{
+        font-size: 18px;
     }
 }

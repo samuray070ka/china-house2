@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Footer.css"
-import {MdLocationPin, MdPhone, MdMobileScreenShare, MdOutlineWifi} from "react-icons/md"
+import {MdLocationPin, MdPhone, MdMobileScreenShare} from "react-icons/md"
 import {CgMail} from "react-icons/cg"
-import {BsFacebook} from "react-icons/bs"
-import {AiFillTwitterCircle, AiFillGooglePlusCircle, AiFillLinkedin} from "react-icons/ai"
-import {SiSass, SiYoutubemusic} from "react-icons/si"
+import {BsFacebook, BsTelegram} from "react-icons/bs"
+import {AiFillTwitterCircle } from "react-icons/ai"
+import {SiYoutubemusic} from "react-icons/si"
+import {TiSocialInstagramCircular} from "react-icons/ti"
+import imgfooxar from "../../assets/xar.png"
+import imgfoora from "../../assets/bg2.jpg"
 
 function Footer() {
   return (
@@ -18,7 +21,7 @@ function Footer() {
               <li className="for__con__cr__ul__li"><MdPhone className='iconca'/>+000 00 000 00 00</li>
               <li className="for__con__cr__ul__li"><MdMobileScreenShare className='iconca'/>+000 00 000 00 00</li>
               <li className="for__con__cr__ul__li"><CgMail className='iconca'/>info@yourdomain.com</li>
-              <li className="for__con__cr__ul__li"><img className="for__con__cr__ul__li__img" src="	https://www.thnet.it/new/images/footer-wmap.png" alt="" /></li>
+              <li className="for__con__cr__ul__li"><img className="for__con__cr__ul__li__img" src={imgfooxar} alt="" /></li>
             </ul>
           </div>
           <div className="for__con__cards">
@@ -40,20 +43,28 @@ function Footer() {
           </div>
           <div className="for__con__cards">
           <h4 className="for__con__cr__ul__title">Rasmlar</h4>
-          <img className='img__for__ul' src="https://chinahouse1.uz/images/209617-1.jpg" alt="" />
+          <img className='img__for__ul' src={imgfoora} alt="" />
           </div>
           </div>
         </div>
         <div className="foter__bottom">
             <h4 className='for__bot__con__tit'>Copyright © 2014 Aaika.com. All rights reserved. Terms of Use | Privacy Policy</h4>
             <div className="ikons">
+              <a href="https://t.me/VOLK_2o7">
               <BsFacebook className='iko__icons'/>
+              </a>
+              <a href="https://t.me/VOLK_2o7">
               <AiFillTwitterCircle className='iko__icons'/>
-              <AiFillGooglePlusCircle className='iko__icons'/>
-              <AiFillLinkedin className='iko__icons'/>
-              <SiSass className='iko__icons'/>
+              </a>
+              <a href="https://t.me/VOLK_2o7">
               <SiYoutubemusic className='iko__icons'/>
-              <MdOutlineWifi className='iko__icons'/>
+              </a>
+              <a href="https://t.me/VOLK_2o7">
+              <TiSocialInstagramCircular className='iko__icons'/>
+              </a>
+              <a href="https://t.me/VOLK_2o7">
+              <BsTelegram className='iko__icons'/>
+              </a>
             </div>
         </div>
       </div>
