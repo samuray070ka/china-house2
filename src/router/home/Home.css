@@ -152,6 +152,31 @@
 
 
 
+.home__banner_6{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 70px 50px;
+}
+.home__banner_6 div{
+    width: 30%;
+}
+
+.home__banner_6 div iframe{
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -231,6 +256,15 @@
     .home__banner_5_half__2 p{
         margin: 0 auto  30px auto;
     }
+    .home__banner_6 div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home__banner_6 div iframe{
+        width: 500px;
+        margin: 0 auto 20px 0 ;
+    }
 }
 @media screen and (max-width: 990px){
     .home__swiper_slide img{
@@ -280,6 +314,19 @@
     }
     .home__swiper .swiper-button-prev {
         transform: scale(.5);
+    }
+
+    .home__banner_6{
+        padding: 20px 0 0 0;
+    }
+    .home__banner_6 div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home__banner_6 div iframe{
+        width: 280px;
+        margin: 0 auto 20px auto ;
     }
 }
 
