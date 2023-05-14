@@ -38,9 +38,10 @@
 .foter__bottom{
     width: 100%;
     background: var(--bg-gradient);
-    padding: 40px;
+    padding: 20px 10%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .img__for__ul{
     width: 100%;

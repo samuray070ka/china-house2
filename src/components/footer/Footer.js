@@ -17,14 +17,14 @@ function Footer() {
           <div className="for__con__cards">
             <ul className="for__con__cr__ul">
               <h4 className="for__con__cr__ul__title">China House</h4>
-              <li className="for__con__cr__ul__li"><MdLocationPin className='iconca'/>Avtosalon yonida</li>
-              <li className="for__con__cr__ul__li"><MdPhone className='iconca'/>+000 00 000 00 00</li>
-              <li className="for__con__cr__ul__li"><MdMobileScreenShare className='iconca'/>+000 00 000 00 00</li>
-              <li className="for__con__cr__ul__li"><CgMail className='iconca'/>info@yourdomain.com</li>
+              <li className="for__con__cr__ul__li"><MdLocationPin className='iconca'/>Namangan Jinoyat sudi yonida</li>
+              <li className="for__con__cr__ul__li"><MdPhone className='iconca'/>+998 95 302 55 11</li>
+              <li className="for__con__cr__ul__li"><MdMobileScreenShare className='iconca'/>+998 95 024 80 88</li>
+              <li className="for__con__cr__ul__li"><CgMail className='iconca'/>baglobalhousesnam@gmail. com</li>
               <li className="for__con__cr__ul__li"><img className="for__con__cr__ul__li__img" src={imgfooxar} alt="" /></li>
             </ul>
           </div>
-          <div className="for__con__cards">
+          {/* <div className="for__con__cards">
           <ul className="for__con__cr__ul">
               <h4 className="for__con__cr__ul__title">Havolalarimiz</h4>
               <li className="for__con__cr__ul__li">Biz bilan aloqa</li>
@@ -35,7 +35,7 @@ function Footer() {
               <li className="for__con__cr__ul__li">Kmachiliklarimiz</li>
               <li className="for__con__cr__ul__li">Hamkorlik uchun</li>
             </ul>
-          </div>
+          </div> */}
           <div className="for__con__cards">
           <h4 className="for__con__cr__ul__title">Biz haqimizda</h4>
           <p className="for__con__cr__p">Biz bilan birga boling va aslo yengilmaysiz</p>

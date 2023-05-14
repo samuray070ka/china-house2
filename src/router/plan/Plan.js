@@ -147,7 +147,7 @@ function Plan() {
         </div>
       </Swiper><br/>
       </div><br/>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.4527151585676!2d69.20736951535793!3d41.23369557927865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae61c6e80af101%3A0x153984bb4ff2a338!2sChina%20House!5e0!3m2!1sru!2s!4v1681309407133!5m2!1sru!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='maps'></iframe>
+      <iframe className='maps' src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1336.6341131244321!2d71.65833550894367!3d41.00206927279885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sviloyat%20sudi%20near%20Namangan!5e0!3m2!1sen!2s!4v1684044572733!5m2!1sen!2s"  height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   )
 }

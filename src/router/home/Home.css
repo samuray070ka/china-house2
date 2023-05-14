@@ -72,7 +72,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 50vh;
+    min-height: 350px;
     background-image: url("https://china-house.uz/wp-content/themes/china-house/images/flat-variant.jpg");
 }
 .home__banner_3 h1{
@@ -93,6 +93,7 @@
     flex-wrap: wrap;
     overflow: hidden;    
     background: #720983;
+    padding: 0 10%;
 }
 .home__banner_4_half__1{
     width: 50%;
@@ -100,14 +101,14 @@
 .home__banner_4_half__1 img{
     width: 80%;
     display: block;
-    margin: 300px auto;
+    margin: 50px auto;
 }
 .home__banner_4_half__2{
     width: 50%;
 }
 .home__banner_4_half__2 img{
     display: block;
-    margin: 300px auto 50px auto;
+    margin: 50px auto 50px auto;
 }
 .home__banner_4_half__2 p{
     color: #fff;
@@ -121,7 +122,8 @@
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;    
-    background: url("https://china-house.uz/wp-content/themes/china-house/images/redbackround.jpg") no-repeat center/cover;
+    padding: 0 10%;
+    background: url("../../assets/redbackround.jpg") no-repeat center/cover;
 }
 .home__banner_5_half__1{
     width: 50%;
@@ -129,14 +131,14 @@
 .home__banner_5_half__1 img{
     width: 80%;
     display: block;
-    margin: 300px auto;
+    margin: 50px auto;
 }
 .home__banner_5_half__2{
     width: 50%;
 }
 .home__banner_5_half__2 img{
     display: block;
-    margin: 300px auto 50px auto;
+    margin: 50px auto 50px auto;
 }
 .home__banner_5_half__2 p{
     color: #fff;
@@ -159,16 +161,18 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 70px 50px;
+    padding: 50px 15%;
+    gap: 30px;
 }
 .home__banner_6 div{
-    width: 30%;
+    flex: 1;
 }
 
 .home__banner_6 div iframe{
     margin-bottom: 20px;
     width: 100%; 
 }
+
 
 
 
@@ -256,15 +260,15 @@
     .home__banner_5_half__2 p{
         margin: 0 auto  30px auto;
     }
-    .home__banner_6 div{
+    /* .home__banner_6 div{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-    }
-    .home__banner_6 div iframe{
+    } */
+    /* .home__banner_6 div iframe{
         width: 500px;
         margin: 0 auto 20px 0 ;
-    }
+    } */
 }
 @media screen and (max-width: 990px){
     .home__swiper_slide img{
@@ -272,6 +276,9 @@
     }
     .home__banner_2 h1{
         font-size: 25px;
+    }
+    .home__banner_4{
+        padding: 0 20px;
     }
 }
 @media screen and (max-width:650px){
@@ -294,14 +301,18 @@
     .home__swiper .swiper-button-prev {
         transform: scale(.7);
     }
+     .home__banner_6 div {
+        flex: auto;
+        width: 100%;
+    }
 }
 @media screen and (max-width:500px){
     .home__swiper_slide img{
         height: 250px;
     }
-    .home__banner_4_half__2 p{
+    /* .home__banner_4_half__2 p{
         font-size: 14px;
-    }
+    } */
     .home__banner_5_half__2 p{
         font-size: 14px;
     }
@@ -317,16 +328,11 @@
     }
 
     .home__banner_6{
-        padding: 20px 0 0 0;
+        padding: 20px;
     }
-    .home__banner_6 div{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .home__banner_6 div iframe{
+    /* .home__banner_6 div iframe{
         width: 280px;
         margin: 0 auto 20px auto ;
-    }
+    } */
 }
 
