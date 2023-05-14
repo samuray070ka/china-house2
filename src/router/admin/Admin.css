@@ -5,7 +5,7 @@
     grid-template-columns: 350px 1fr;
 }
 .admin__sidebar{
-    background: var(--bg-py);
+    background: var(--bg-gradient);
     padding: 30px;
 }
 .admin__content{

@@ -16,6 +16,7 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 .con__sidebar{
     width: 100%;
@@ -27,7 +28,19 @@
 }
 .csidebar__logo{
     width: 100%;
-
+    margin-bottom: 10px;
+}
+.cs__title{
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.cs__task{
+    font-weight: 500;
+}
+.cs__address{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 12px;
 }
 .csidebar__loc{
     width: 100%;
@@ -84,10 +97,12 @@
 @media screen and (max-width: 800px) {
     .csidebar__logo{
         width: 90%;
+        margin-left: 10%;
     }
     .csidebar__loc{
         width: 90%;
     }
+    
 }
 @media screen and (max-width: 550px) {
     .cabout__card{

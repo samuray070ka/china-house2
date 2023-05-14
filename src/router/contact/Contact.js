@@ -46,11 +46,11 @@ function Contact() {
       <div className="con__sidebar">
         <div className="container con__bac">
           <div className="cloc__about">
-            <img
-              className="csidebar__logo"
-              src="https://china-house.uz/wp-content/themes/china-house/images/sales/logo-shoxsaroy-white2.svg"
-              alt=""
-            />
+            <div className="csidebar__logo">
+              <h1 className="cs__title">SHANGHAi</h1>
+              <h4 className="cs__task">–––– RESIDENCE ––––</h4>
+              <h5 className="cs__address">YASHNOBOD TUMANI</h5>
+            </div>
             <img
               className="csidebar__loc"
               src="https://china-house.uz/wp-content/themes/china-house/images/sales/shohsaroy.jpg"
@@ -63,17 +63,18 @@ function Contact() {
           </div>
 
           <div className="cloc__about">
-            <img
-              className="csidebar__logo"
-              src="https://china-house.uz/wp-content/themes/china-house/images/sales/logo-shanghai-white2.svg"
-              alt=""
-            />
+            <div className="csidebar__logo">
+              <h1 className="cs__title">SHANGHAi</h1>
+              <h4 className="cs__task">–––– RESIDENCE ––––</h4>
+              <h5 className="cs__address">YASHNOBOD TUMANI</h5>
+            </div>
 
             <img
               className="csidebar__loc"
               src="https://china-house.uz/wp-content/themes/china-house/images/sales/shanghai.jpg"
               alt=""
             />
+            
 
             <br />
             <br />
@@ -92,7 +93,7 @@ function Contact() {
             <h4 className="ccard__job">{item.job}</h4>
 
             <button className="ccard__btn">Xabar yozish uchun</button>
-
+            
             <h4 className="ccard__num">
               <a href={`tel:+998${item.num}`}> +998 <span>{item.num}</span> </a>
             </h4>
