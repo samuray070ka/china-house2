@@ -21,7 +21,7 @@
     padding-left: 50px;
 }
 .about__box{
-    display: fl ex;
+    display: flex;
     padding-bottom: 20px;
     padding-top: 20px;
     flex-wrap: wrap;
