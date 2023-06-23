@@ -19,7 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/ipoteka' element={<Ipoteka/>}/>
         <Route path='/admin/*' element={<Admin/>}/>
-        <Route path='/about' element={<About/>}/>
+        <Route path='/about' elemen t={<About/>}/>
         <Route path='*' element={<h1 className='not__found'>404</h1>}/>
       </Routes>
       <Footer/>
