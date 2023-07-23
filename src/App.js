@@ -8,7 +8,6 @@ import Navbar from "./components/navbar/Navbar"
 import Footer from './components/footer/Footer';
 import Admin from './router/admin/Admin';
 import About from './router/about/About';
-
 function App() {
   return (
     <div className="App">
@@ -19,7 +18,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/ipoteka' element={<Ipoteka/>}/>
         <Route path='/admin/*' element={<Admin/>}/>
-        <Route path='/about' elemen t={<About/>}/>
+        <Route path='/about' element={<About/>}/>
         <Route path='*' element={<h1 className='not__found'>404</h1>}/>
       </Routes>
       <Footer/>
